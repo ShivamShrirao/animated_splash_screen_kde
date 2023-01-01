@@ -32,8 +32,8 @@ Rectangle {
 
         Rectangle {
 
-        property int sizeAnimW: 700
-        property int sizeAnimH: 525
+        property int sizeAnimW: 1000
+        property int sizeAnimH: 1000
 
         id: imageSource
         width:  sizeAnimW
@@ -45,7 +45,7 @@ Rectangle {
  
         AnimatedImage { 
             id: face
-            source: "images/choices/hud.gif"
+            source: "images/choices/sphere.gif"
             paused: false 
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
